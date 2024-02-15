@@ -77,8 +77,12 @@ nav{
     i{
         display: block;
     }
+    .location-img{
+        width: 160%;
     }
-
+    
+    
+    }
 
 /* welcome*/
 .back-light{
@@ -95,10 +99,34 @@ flex-wrap: wrap;
 }
 
 .location-img{
-    width: 30rem;
+
+     max-width: 100%;
 }
 
 /* contact area*/
 .contact-img{
-    width: 22rem;
+    width: 100%;
+}
+/* vilage section*/
+
+.vilage-img{
+    width: 50%;
+    flex-wrap: wrap;
+}
+.green{
+    background-color: green;
+}
+.div{
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+/* social feed*/
+.width-feed{
+    width: 100%;
+     gap: 10px;
+     margin-left: 2%;
+}
+.font-big{
+    font-size: 100%;
 }
